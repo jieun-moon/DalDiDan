@@ -1,19 +1,14 @@
 <template>
-  <!-- <div class="card card-body">
-    <h2>Card Recommendation</h2>
-  </div> -->
   <div class="row">
     <div class="col p-3">
       <h2>카드 추천</h2>
     </div>
   </div>
-  <div class="container mt-3">
-    <h2>Card Image</h2>
-    <p>Image at the top (card-img-top):</p>
-    <div class="card" style="width: 400px">
+  <div class="d-flex justify-content-start">
+    <div class="card" style="width: 300px">
       <img
         class="card-img-top"
-        src="../bootstrap4/img_avatar1.png"
+        src="https://www.mastercard.co.kr/content/dam/public/mastercardcom/kr/ko/consumers/find-a-card/images/mc-debit-card_1280x650.png"
         alt="Card image"
         style="width: 100%"
       />
@@ -23,16 +18,19 @@
           Some example text some example text. John Doe is an architect and
           engineer
         </p>
-        <a href="#" class="btn btn-primary">See Profile</a>
+        <a
+          href="https://card.kbcard.com/CMN/DVIEW/HOAMCXPRIZZC0002"
+          class="btn btn-primary"
+          target="_blank"
+          >See Profile</a
+        >
       </div>
     </div>
-    <br />
 
-    <p>Image at the bottom (card-img-bottom):</p>
-    <div class="card" style="width: 400px">
+    <div class="card" style="width: 300px">
       <img
         class="card-img-bottom"
-        src="../bootstrap4/img_avatar6.png"
+        src="https://www.mastercard.co.kr/content/dam/public/mastercardcom/kr/ko/consumers/find-a-card/images/mc-debit-card_1280x650.png"
         alt="Card image"
         style="width: 100%"
       />
@@ -42,14 +40,21 @@
           Some example text some example text. Jane Doe is an architect and
           engineer
         </p>
-        <a href="#" class="btn btn-primary">See Profile</a>
+        <a
+          href="https://card.kbcard.com/CMN/DVIEW/HOAMCXPRIZZC0002"
+          class="btn btn-primary"
+          target="_blank"
+          >See Profile</a
+        >
       </div>
     </div>
+
     <br />
-    <div class="card" style="width: 400px">
+
+    <div class="card" style="width: 300px">
       <img
         class="card-img-top"
-        src="../bootstrap4/img_avatar1.png"
+        src="https://www.mastercard.co.kr/content/dam/public/mastercardcom/kr/ko/consumers/find-a-card/images/mc-debit-card_1280x650.png"
         alt="Card image"
         style="width: 100%"
       />
@@ -59,7 +64,12 @@
           Some example text some example text. John Doe is an architect and
           engineer
         </p>
-        <a href="#" class="btn btn-primary">See Profile</a>
+        <a
+          href="https://card.kbcard.com/CMN/DVIEW/HOAMCXPRIZZC0002"
+          class="btn btn-primary"
+          target="_blank"
+          >See Profile</a
+        >
       </div>
     </div>
   </div>
