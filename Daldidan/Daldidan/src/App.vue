@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 import userList from './assets/users.json';
 export default {
     name: 'UserList',
@@ -31,4 +31,4 @@ export default {
             <br />
         </ul>
     </div>
-</template>
+</template> -->

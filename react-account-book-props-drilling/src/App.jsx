@@ -5,26 +5,18 @@ import { useState } from 'react';
 import loadFakeData from './assets/fakeData';
 
 function App() {
-  const [entryList, setEntryList] = useState(loadFakeData);
+    const [entryList, setEntryList] = useState(loadFakeData);
 
-  return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route
-            path="/"
-            element={<Home entryList={entryList} setEntryList={setEntryList} />}
-          />
-          <Route
-            path="/Detail/:id"
-            element={
-              <Detail entryList={entryList} setEntryList={setEntryList} />
-            }
-          />
-        </Routes>
-      </BrowserRouter>
-    </>
-  );
+    return (
+        <>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Home entryList={entryList} setEntryList={setEntryList} />} />
+                    <Route path="/Detail/:id" element={<Detail entryList={entryList} setEntryList={setEntryList} />} />
+                </Routes>
+            </BrowserRouter>
+        </>
+    );
 }
 
 export default App;
